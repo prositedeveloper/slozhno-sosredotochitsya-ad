@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root.theme-dark {
     --background-color: #000028;
     --accent-color: #ff0070;
     --heading-color: #db00ff;
@@ -16,7 +16,7 @@
   }
 }
 
-.page.theme_dark {
+.theme-dark .page {
   --background-color: #000028;
   --accent-color: #ff0070;
   --heading-color: #db00ff;
